@@ -51,11 +51,11 @@ Create issue tickets from the items below to help you get started.
 - [ ] An ERD of your data
 - [x] Use Firebase for DB and authentication
 - [ ] Technical Flow chart (timebox this)
-- [ ] The app has a navigation bar that includes:
+- [x ] The app has a navigation bar that includes:
   - [x] A Title/Logo (do not spend a ton of time on this until you reach MVP)
-  - [ ] Logout button
-  - [ ] Create Entry
-  - [ ] Any other options you would like to add
+  - [x ] Logout button
+  - [x ] Create Entry
+  - [ x] Any other options you would like to add
 
 **The most basic requirement for this project is that a user can:**
 - [x] Login and Logout of the application using Firebase Google Authentication
@@ -69,9 +69,9 @@ Create issue tickets from the items below to help you get started.
 - [X] READ THIER entries
 - [X] UPDATE THEIR entries
 - [X] DELETE THEIR entries
-- [ ] Filter by language/tech
-- [ ] Style your application using your own creativity!
-- [ ] No errors - linters should be clean
+- [ x] Filter by language/tech
+- [ x] Style your application using your own creativity!
+- [ x] No errors - linters should be clean
 
 ## Stretch 1
 [Stretch 1 Wireframe](https://www.figma.com/file/yZE38QzpoUWELA22gGZJve/Stretch-1)

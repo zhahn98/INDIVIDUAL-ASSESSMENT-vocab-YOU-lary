@@ -8,6 +8,21 @@ const domBuilder = () => {
     <div id="form-container"></div>
     <div id="store"></div>
     <div id="view"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </div>`;
 
   renderToDOM('#app', domString);

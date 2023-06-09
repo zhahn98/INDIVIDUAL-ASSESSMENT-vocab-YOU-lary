@@ -5,7 +5,6 @@ const formEvents = () => {
   document.querySelector('#main-container').addEventListener('submit', (e) => {
     e.preventDefault();
     if (e.target.id.includes('submit-card')) {
-      console.warn('TEST');
       const payload = {
         title: document.querySelector('#title').value,
         definition: document.querySelector('#definition').value,

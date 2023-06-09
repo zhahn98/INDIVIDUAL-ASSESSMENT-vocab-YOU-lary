@@ -2,11 +2,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-image: linear-gradient(rgb(241, 132, 132), rgb(131, 19, 19));
+  background-image: linear-gradient(rgb(241, 132, 132), rgb(104, 13, 13));
   color: rgb(206, 206, 206);
   text-align: center;
   margin-top: 100px;
-  height: 100%;
+  height: 200%;
   background-repeat: no-repeat;
 }
 
@@ -30,16 +30,16 @@ body {
 }
 
 #add-card-btn {
-  background-color: rgb(238, 132, 83);
+  background-image: linear-gradient(rgb(85, 85, 85), rgb(44, 44, 44));
   border-radius: 15px;
-  border-color: rgb(209, 107, 23); 
+  border-color: rgb(255, 255, 255); 
   border-style: groove;
 }
 
 #google-auth {
-  background-color: rgb(238, 132, 83);
+  background-image: linear-gradient(rgb(85, 85, 85), rgb(44, 44, 44));
   border-radius: 15px;
-  border-color: rgb(209, 107, 23); 
+  border-color: rgb(255, 255, 255);  
   border-style: groove;
 }
 
@@ -62,3 +62,9 @@ body {
   flex-wrap: wrap;
 }
 
+.btn-primary {
+  background-image: linear-gradient(rgb(85, 85, 85), rgb(44, 44, 44));
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255); 
+  border-style: groove;
+}

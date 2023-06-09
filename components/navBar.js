@@ -16,7 +16,7 @@ const navBar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="filter-js">JS Filter</a>
+              <a class="nav-link" href="#" id="filter-js">JS Filter <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" id="filter-python">Python Filter</a>
@@ -26,14 +26,6 @@ const navBar = () => {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" id="filter-misc">Misc. Filter</a>
-            </li>
-            <li>
-            <input
-              class="form-control mr-sm-2"
-              id="search"
-              placeholder="Search Vocab Words"
-              aria-label="Search"
-            />
             </li>
           </ul>
           <span class="navbar-text">

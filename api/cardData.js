@@ -72,8 +72,43 @@ const getSingleCard = (firebaseKey) => new Promise((resolve, reject) => {
 // https://vocab-assessment-default-rtdb.firebaseio.com/cards.json
 
 const jsCards = () => new Promise((resolve, reject) => {
-  console.warn('test');
-  fetch(`${endpoint}/cards.json?category=JS`, {
+  fetch(`${endpoint}/cards.json?orderBy="category"&equalTo="JS"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const pythonCards = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/cards.json?orderBy="category"&equalTo="Python"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const htmlCards = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/cards.json?orderBy="category"&equalTo="HTML/CSS"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const miscCards = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/cards.json?orderBy="category"&equalTo="Misc."`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -90,5 +125,8 @@ export {
   deleteCard,
   updateCard,
   getSingleCard,
-  jsCards
+  jsCards,
+  pythonCards,
+  htmlCards,
+  miscCards
 };
