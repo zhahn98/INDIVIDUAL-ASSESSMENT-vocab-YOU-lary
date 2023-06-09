@@ -1,13 +1,17 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
 
+html, body {
+    min-height:100%;
+} 
+
 body {
   background-image: linear-gradient(rgb(241, 132, 132), rgb(104, 13, 13));
   color: rgb(206, 206, 206);
   text-align: center;
   margin-top: 100px;
-  height: 200%;
   background-repeat: no-repeat;
+  background-size: auto 100%;
 }
 
 .card {
