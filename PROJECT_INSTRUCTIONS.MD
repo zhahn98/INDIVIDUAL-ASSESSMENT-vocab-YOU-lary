@@ -1,3 +1,6 @@
+# CUSTOM INSTRUCTIONS!
+  
+
 # vocab-YOU-lary
 
 In this student assessment, you will be creating an application that allows users to CRUD vocabulary cards, authenticate with Google, and filter.
@@ -46,26 +49,26 @@ Create issue tickets from the items below to help you get started.
 # MVP Requirements
 [MVP Wireframe](https://www.figma.com/file/IW4jF3GnzCFLYbEXlgFNIZ/MVP)
 - [ ] An ERD of your data
-- [ ] Use Firebase for DB and authentication
+- [x] Use Firebase for DB and authentication
 - [ ] Technical Flow chart (timebox this)
 - [ ] The app has a navigation bar that includes:
-  - [ ] A Title/Logo (do not spend a ton of time on this until you reach MVP)
+  - [x] A Title/Logo (do not spend a ton of time on this until you reach MVP)
   - [ ] Logout button
   - [ ] Create Entry
   - [ ] Any other options you would like to add
 
 **The most basic requirement for this project is that a user can:**
-- [ ] Login and Logout of the application using Firebase Google Authentication
+- [x] Login and Logout of the application using Firebase Google Authentication
 - [ ] only see the vocabulary entries that they created
-- [ ] CREATE a vocabulary entry:
-  - [ ] Title
-  - [ ] Definition
-  - [ ] Language/Tech
+- [x] CREATE a vocabulary entry:
+  - [x] Title
+  - [x] Definition
+  - [x] Language/Tech
   - [ ] Time submitted - Not on form. Handle in your JS
   - [ ] user ID - Not on form. Pull from User object.
-- [ ] READ THIER entries
-- [ ] UPDATE THEIR entries
-- [ ] DELETE THEIR entries
+- [X] READ THIER entries
+- [X] UPDATE THEIR entries
+- [X] DELETE THEIR entries
 - [ ] Filter by language/tech
 - [ ] Style your application using your own creativity!
 - [ ] No errors - linters should be clean

@@ -1,10 +1,64 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
 
-
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-image: linear-gradient(rgb(241, 132, 132), rgb(131, 19, 19));
+  color: rgb(206, 206, 206);
   text-align: center;
   margin-top: 100px;
+  height: 100%;
+  background-repeat: no-repeat;
 }
+
+.card {
+  width: 500px;
+  height: 220px;
+  margin: 67px;
+}
+
+#main-container {
+  margin: 0 auto;
+  margin-top: 20px;
+  align-content: center;
+
+  #form-container {
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    color: white;
+  }
+}
+
+#add-card-btn {
+  background-color: rgb(238, 132, 83);
+  border-radius: 15px;
+  border-color: rgb(209, 107, 23); 
+  border-style: groove;
+}
+
+#google-auth {
+  background-color: rgb(238, 132, 83);
+  border-radius: 15px;
+  border-color: rgb(209, 107, 23); 
+  border-style: groove;
+}
+
+.navbar-dark .navbar-brand {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.card-body {
+  color: white;
+  background-image: linear-gradient(to bottom right, rgb(122, 118, 118), rgb(17, 17, 17));
+  border-color: rgb(255, 255, 255); 
+  border-style: groove;
+  border-radius: 15px;
+}
+
+#store {
+  display: flex;
+  flex-wrap: wrap;
+}
+
